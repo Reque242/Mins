@@ -16,7 +16,7 @@
     <!--                                           -->
     <!-- Any title is fine                         -->
     <!--                                           -->
-    <title>Web Application Starter Project</title>
+    <title>MINS Mashup</title>
     
     <!--                                           -->
     <!-- This script loads your compiled module.   -->
@@ -24,6 +24,7 @@
     <!-- be added before this line.                -->
     <!--                                           -->
     <script type="text/javascript" language="javascript" src="minsmashup/minsmashup.nocache.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </head>
 
   <!--                                           -->
@@ -42,18 +43,7 @@
     </noscript>
 
     <h1>Web Application Starter Project</h1>
-
-    <table align="center">
-      <tr>
-        <td colspan="2" style="font-weight:bold;">Please enter your name:</td>        
-      </tr>
-      <tr>
-        <td id="nameFieldContainer"></td>
-        <td id="sendButtonContainer"></td>
-      </tr>
-      <tr>
-        <td colspan="2" style="color:red;" id="errorLabelContainer"></td>
-      </tr>
-    </table>
+	
+	<div id="map_canvas"></div>
   </body>
 </html>
