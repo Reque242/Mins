@@ -16,6 +16,16 @@
     <url-pattern>/minsmashup/greet</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <servlet-name>minsServlet</servlet-name>
+    <servlet-class>com.appgine.mins.server.MinsServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>minsServlet</servlet-name>
+    <url-pattern>/minsmashup/mashup</url-pattern>
+  </servlet-mapping>
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>MinsMashup.html</welcome-file>
