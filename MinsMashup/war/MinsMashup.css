@@ -1,4 +1,17 @@
 #map_canvas {
 	height: 500px;
 	width: 500px;
+	display: inline-block;
+}
+
+.container {
+	border: 1px solid black;
+	display: inline-block;
+	height: 500px;
+	width: 350px;
+}
+
+#letra {
+	padding: 20px;
+	text-align: center;
 }
