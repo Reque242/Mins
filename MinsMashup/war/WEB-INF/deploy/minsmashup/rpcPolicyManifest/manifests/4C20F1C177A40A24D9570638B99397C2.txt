@@ -1,0 +1,2 @@
+serviceClass: com.appgine.mins.client.GreetingService
+path: B951B313140C087B964E5E3D2A63CCB4.gwt.rpc
