@@ -56,13 +56,13 @@ public class MinsMashup implements EntryPoint {
 					@Override
 					public void onFailure(Throwable caught) {
 						// TODO Auto-generated method stub
-						
+						Window.alert("Failure");
 					}
 
 					@Override
 					public void onSuccess(ChartSearch result) {
 						// TODO Auto-generated method stub
-						Window.alert("Yeeee");
+						Window.alert("Success");
 					}
 					
 				});
