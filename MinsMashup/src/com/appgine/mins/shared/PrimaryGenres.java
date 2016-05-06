@@ -13,26 +13,13 @@ import java.io.Serializable;
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class PrimaryGenres implements Serializable {
 
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = -2505137868978611366L;
 	private List<MusicGenreList> musicGenreList = new ArrayList<MusicGenreList>();
 
-    /**
-     * 
-     * @return
-     *     The musicGenreList
-     */
     public List<MusicGenreList> getMusicGenreList() {
         return musicGenreList;
     }
 
-    /**
-     * 
-     * @param musicGenreList
-     *     The music_genre_list
-     */
     public void setMusicGenreList(List<MusicGenreList> musicGenreList) {
         this.musicGenreList = musicGenreList;
     }
