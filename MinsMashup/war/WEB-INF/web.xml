@@ -7,16 +7,6 @@
 
   <!-- Servlets -->
   <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.appgine.mins.server.GreetingServiceImpl</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/minsmashup/greet</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
     <servlet-name>minsServlet</servlet-name>
     <servlet-class>com.appgine.mins.server.MinsServiceImpl</servlet-class>
   </servlet>

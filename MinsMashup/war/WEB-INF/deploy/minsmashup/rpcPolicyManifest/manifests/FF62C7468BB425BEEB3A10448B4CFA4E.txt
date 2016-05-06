@@ -1,0 +1,2 @@
+serviceClass: com.appgine.mins.client.MinsService
+path: CBB504AED4621D7B78AEDAC8B6DA6D11.gwt.rpc

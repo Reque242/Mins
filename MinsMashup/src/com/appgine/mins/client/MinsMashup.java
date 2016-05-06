@@ -1,7 +1,6 @@
 package com.appgine.mins.client;
 
 import com.appgine.mins.shared.ChartSearch;
-import com.appgine.mins.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
