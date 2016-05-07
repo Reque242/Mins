@@ -61,7 +61,10 @@ public class MinsMashup implements EntryPoint {
 					@Override
 					public void onSuccess(ChartSearch result) {
 						// TODO Auto-generated method stub
-						Window.alert("Success");
+						if (result == null)
+							Window.alert("Null");
+						else 
+							Window.alert("Not null");
 					}
 					
 				});

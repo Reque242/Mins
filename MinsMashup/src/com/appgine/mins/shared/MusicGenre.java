@@ -7,45 +7,44 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.io.Serializable;
 
-@Generated("org.jsonschema2pojo")
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class MusicGenre implements Serializable {
 
 	private static final long serialVersionUID = 6659007254860947665L;
-	private Integer musicGenreId;
-    private Integer musicGenreParentId;
-    private String musicGenreName;
-    private String musicGenreNameExtended;
+	private Integer music_genre_id;
+    private Integer music_genre_parent_id;
+    private String music_genre_name;
+    private String music_genre_name_extended;
 
     public Integer getMusicGenreId() {
-        return musicGenreId;
+        return music_genre_id;
     }
 
-    public void setMusicGenreId(Integer musicGenreId) {
-        this.musicGenreId = musicGenreId;
+    public void setMusicGenreId(Integer music_genre_id) {
+        this.music_genre_id = music_genre_id;
     }
     public Integer getMusicGenreParentId() {
-        return musicGenreParentId;
+        return music_genre_parent_id;
     }
     
-    public void setMusicGenreParentId(Integer musicGenreParentId) {
-        this.musicGenreParentId = musicGenreParentId;
+    public void setMusicGenreParentId(Integer music_genre_parent_id) {
+        this.music_genre_parent_id = music_genre_parent_id;
     }
 
     public String getMusicGenreName() {
-        return musicGenreName;
+        return music_genre_name;
     }
 
-    public void setMusicGenreName(String musicGenreName) {
-        this.musicGenreName = musicGenreName;
+    public void setMusicGenreName(String music_genre_name) {
+        this.music_genre_name = music_genre_name;
     }
 
     public String getMusicGenreNameExtended() {
-        return musicGenreNameExtended;
+        return music_genre_name_extended;
     }
 
-    public void setMusicGenreNameExtended(String musicGenreNameExtended) {
-        this.musicGenreNameExtended = musicGenreNameExtended;
+    public void setMusicGenreNameExtended(String music_genre_name_extended) {
+        this.music_genre_name_extended = music_genre_name_extended;
     }
 
 }

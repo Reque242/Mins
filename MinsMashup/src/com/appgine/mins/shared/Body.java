@@ -10,21 +10,19 @@ import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.io.Serializable;
 
-@Generated("org.jsonschema2pojo")
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Body implements Serializable {
 
 	private static final long serialVersionUID = -1082685895837655817L;
-	private List<TrackList> trackList = new ArrayList<TrackList>();
-
+	private List<TrackList> track_list = new ArrayList<TrackList>();
 
 	@JsonProperty("track_list")
     public List<TrackList> getTrackList() {
-        return trackList;
+        return track_list;
     }
 
-    public void setTrackList(List<TrackList> trackList) {
-        this.trackList = trackList;
+    public void setTrackList(List<TrackList> track_list) {
+        this.track_list = track_list;
     }
 
 }

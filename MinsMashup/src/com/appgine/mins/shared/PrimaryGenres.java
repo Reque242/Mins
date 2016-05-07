@@ -6,22 +6,23 @@ import java.util.List;
 import javax.annotation.Generated;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.io.Serializable;
 
-@Generated("org.jsonschema2pojo")
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class PrimaryGenres implements Serializable {
 
 	private static final long serialVersionUID = -2505137868978611366L;
-	private List<MusicGenreList> musicGenreList = new ArrayList<MusicGenreList>();
+	private List<MusicGenreList> music_genre_list = new ArrayList<MusicGenreList>();
 
+	@JsonProperty("music_genre_list")
     public List<MusicGenreList> getMusicGenreList() {
-        return musicGenreList;
+        return music_genre_list;
     }
 
-    public void setMusicGenreList(List<MusicGenreList> musicGenreList) {
-        this.musicGenreList = musicGenreList;
+    public void setMusicGenreList(List<MusicGenreList> music_genre_list) {
+        this.music_genre_list = music_genre_list;
     }
 
 }

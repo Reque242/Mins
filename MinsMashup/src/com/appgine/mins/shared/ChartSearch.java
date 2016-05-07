@@ -1,23 +1,22 @@
 
 package com.appgine.mins.shared;
 
-import javax.annotation.Generated;
-
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.io.Serializable;
 
-@Generated("org.jsonschema2pojo")
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class ChartSearch implements Serializable {
 
-	private static final long serialVersionUID = -8669541650481535251L;
+	private static final long serialVersionUID = -8669541650481535251L;	
 	private Message message;
 
+	@JsonProperty("message")
     public Message getMessage() {
         return message;
     }
-
+	@JsonProperty("message")
     public void setMessage(Message message) {
         this.message = message;
     }
